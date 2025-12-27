@@ -6,7 +6,7 @@ plugins {
 
 group = 'org.MC1'
 version = '0.0.1-SNAPSHOT'
-description = 'eureca-server'
+description = 'eureka-client'
 
 java {
     toolchain {
@@ -23,8 +23,9 @@ ext {
 }
 
 dependencies {
-    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springframework.boot:spring-boot-starter-webmvc'
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+    testImplementation 'org.springframework.boot:spring-boot-starter-webmvc-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 

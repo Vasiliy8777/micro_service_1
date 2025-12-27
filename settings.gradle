@@ -1,1 +1,4 @@
 rootProject.name = 'MicroC_1'
+
+includeBuild 'eureka-client'
+includeBuild 'eureka-server'
