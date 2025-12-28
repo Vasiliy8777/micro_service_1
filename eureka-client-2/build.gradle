@@ -6,7 +6,7 @@ plugins {
 
 group = 'org.MC1'
 version = '0.0.1-SNAPSHOT'
-description = 'eureka-client'
+description = 'eureka-client-2'
 
 java {
     toolchain {
